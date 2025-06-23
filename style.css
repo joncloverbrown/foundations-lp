@@ -67,7 +67,7 @@ a{
     margin:0;
     margin-bottom: 25px;
 }
-.b-signup{
+.b-signup1{
     border: 2px solid #3882F6;
     background-color: #3882F6;
     color: #E5E7EB;
@@ -76,22 +76,86 @@ a{
 }
 
 /*Section 2*/
-.sect2{
+.sect2-1{
     background-color: white;
-    height: 250px;
+    text-align: center;
+}
+h2{
+    font-size: 30px;
+    margin: 25px;
+}
+.sect2-2{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    color: #3882F6;
+    margin-bottom: 50px;
+}
+
+.sec2imgdiv{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+}
+
+.sec2img{
+    width: 250px;
+    height: 172px;
+    border: 5px solid #3882F6;
+    border-radius: 25px;
 }
 
 /*Section 3*/
 .sect3{
     background-color: #E5E7EB;
-    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 250px;
+}
+.quotetxt{
+    font-size: 25px;
+    font-style: italic;
+    font-weight: 100;
+    margin: 0;
+}
+
+.quotesource{
+    width: 100%;
+    text-align: right;
+    font-size: 25px;
+    font-weight: bold;
+    margin: 0 0 0 -150px;
 }
 
 /*Section 4*/
 .sect4{
     background-color: white;
-    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+.sect4-1{
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px 200px;
+    background-color: #3882F6;
+    color: #E5E7EB;
+    padding: 25px 150px;
+    border-radius: 15px;
+}
+.b-signup2{
+    border: 2px solid #F9FAF8;
+    background-color:  #3882F6;
+    color: #F9FAF8;
+    font-weight: bold;
+    font-size: 14px;
+}
+
 
 .footer{
     display: flex;
